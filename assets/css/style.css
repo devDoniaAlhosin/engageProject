@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   font-family: 'Open Sans', sans-serif;
+   height: 10000px;
+    font-weight: 400;
+}
+/* Nav */
+nav{
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 11111111;
+    border-bottom:1.5px solid rgba(255, 255, 255, 0.08) ;
+
+    
+}
+nav .container{
+    width: 1200px;
+    margin: auto;
+}
+nav .row{
+    display: flex;
+    justify-content: space-between;
+}
+nav .row .logo{
+    flex: 60%;
+    max-width: 60%;
+
+  
+}
+nav .row .logo img{
+    width: 19%;
+    height: 36px;
+}
+nav .row .list-nav{
+    flex: 40%;
+    max-width: 40%;
+  
+}
+nav .row .list-nav ul{
+    /* background-color: aqua; */
+    list-style: none;
+    display: flex;
+
+}
+
+nav .row .list-nav ul a{
+    color: #fff;
+    text-decoration: none;
+    padding-right:28px ;
+    font-size: 19px;
+    font-weight: 500;
+
+}
+nav .row .list-nav ul a i{
+    font-size: 17px;
+
+}
+
+/* Nav */
+
+/* Header */
+header{
+    background-image: url(../img/business-main.jpg);
+    width: 100%;
+    height: 817px;
+    background-size:cover ;
+    background-position: center;
+    position: relative;
+
+}
+header .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.1);
+}
+header .header-dec{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+header .header-dec h2{
+    color: #fff;
+    font-size: 76px!important;
+    letter-spacing: 1px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+header .header-dec p{
+    font-size:30px ;
+    font-weight: 400;
+    color: rgba(255,255,255,.92);
+    margin-bottom: 20px
+
+}
+header .header-dec .btn-1 ,header .header-dec .btn-2 {
+    padding: 17px 30px;
+    font-size: 14px ;
+    text-transform: uppercase;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: 0.3s ease-in all;
+    color: white;
+    font-weight: 600;
+}
+header .header-dec .btn-1{
+    background-color: #4274B7;
+    &:hover{
+        background-color: #fff;
+        color: black;
+     
+    }
+}
+header .header-dec .btn-2 {
+    background-color: #fff;
+    color: black;
+    &:hover{
+        background-color: rgba(255, 255, 255, 0.6);
+        color:  rgba(0, 0, 0, 0.7);
+    }
+}
+
+header .animate{ 
+    position: absolute;
+    bottom : 40px ;
+    left: 48%;
+}
+header .animate .scroll-animate{
+    width: 30px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 40px;
+    border: 2px solid rgba(255, 255, 255, 0.8) ;
+    text-align: center;
+    overflow: hidden;
+
+
+}
+header .animate .scroll-animate span{
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 50%;
+    animation-name: scrollBtn ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+
+}
+
+
+@keyframes scrollBtn{
+  from{
+        transform: translateY(-118px);
+        opacity: 1;
+    }
+   to{
+    transform: translateY(20px);
+    opacity: 0;
+
+    }
+
+}
+
+/* Header */
+
+/* Data Section */
+
+.data{
+    padding: 100px 0;
+
+}
+.data .container{
+    width: 1200px;
+    margin: auto;
+}
+.data .container .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.data .container .row .data-info{
+    flex : 33.333%;
+    max-width: 33.333%;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    margin-right:41px ;
+}
+.data .container .row .data-info i{
+    margin-right: 15px;
+    font-size: 22px;
+}
+.data  .info-body h5{
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #303030;
+    line-height: 1.38em;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.data .container .row .data-info .info-body p{
+    font-size: 15px;
+    line-height: 1.86em;
+    color: #888;
+    font-family: 'Roboto', sans-serif;
+
+}
+/* Data Section */
