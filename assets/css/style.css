@@ -172,8 +172,7 @@ header .animate .scroll-animate span{
     }
    to{
     transform: translateY(20px);
-    opacity: 0;
-
+    background-color: rgba(255, 255, 255, 0.8);
     }
 
 }
@@ -226,3 +225,84 @@ header .animate .scroll-animate span{
 
 }
 /* Data Section */
+
+
+
+/* <!-- section Testimonials --> */
+.Testimonials{
+    background-image: url(../img/business-main.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+
+} 
+.Testimonials .overlay{
+    width: 100%;
+    height: 100%;
+    background-color: #4274b7;
+    opacity: .9;
+    padding-top: 120px;
+    color: #fff;
+}
+.Testimonials .overlay .Testimonials-desc .comment{
+    font-size: 43px;
+    margin-bottom: 40px;
+}
+.Testimonials .overlay .Testimonials-desc .p-testimonials{
+    width: 1089px;
+    height: 83.7;
+    text-align: center;
+    margin: auto;
+
+}
+.Testimonials .overlay .Testimonials-desc p{
+    font-size: 1.5em;
+    line-height: 45px;
+    margin-bottom: 40px ;
+}
+.Testimonials .overlay .Testimonials-desc .p-testimonials i{
+    font-size: 10px;
+}
+
+
+.Testimonials .overlay .Testimonials-desc span{
+    display: block;
+}
+.Testimonials .overlay .Testimonials-desc .sp-1{
+    color: #fff;
+    font-weight: bold;
+    font-size: 16.2px;
+    line-height: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+.Testimonials .overlay .Testimonials-desc .sp-2{
+    color: #C1D2E8;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+
+}
+.Testimonials .overlay .Testimonials-desc .btn-test{
+    background-color: transparent;
+    text-align: center;
+    border: 2px solid rgba(255,255,255,.7);;
+    color: #fff;
+    padding: 10px;
+    border-radius:50% ;
+    margin-right: 5px;
+    outline: none;
+    cursor: pointer;
+    transition: .4s all ease-in;
+    &:hover{
+        background-color: #fff;
+        color: black;
+    }
+}
+
+
+/* <!-- section Testimonials --> */
