@@ -1,6 +1,21 @@
 
+// Nav scroll 
+document.addEventListener('DOMContentLoaded', function () {
+    const navbar = document.getElementById('navbar');
+
+    window.addEventListener('scroll', function () {
+      if (window.scrollY > 0) {
+        navbar.classList.add('nav-scrolled');
+        logoDark.src = 'assets/img/logo-dark.png'
+        
+      } else {
+        navbar.classList.remove('nav-scrolled');
+      }
+    });
+  });
 
 
+// Qoutes style
 document.addEventListener('DOMContentLoaded', function () {
     // object
     const testimonials = [

@@ -65,6 +65,16 @@ nav .row .list-nav ul a i{
 
 }
 
+/* js part css */
+.nav-scrolled {
+    background-color: white !important;
+    border-bottom: 1.5px solid rgba(0, 0, 0, 0.1) !important;
+  }
+
+  .nav-scrolled .list-nav ul a {
+    color: #000 !important;
+  }
+
 /* Nav */
 
 /* Header */
