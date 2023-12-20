@@ -237,6 +237,260 @@ header .animate .scroll-animate span{
 /* Data Section */
 
 
+/* Who are we? */
+
+.whoAreWe{
+    background: #f8f8f8;
+    padding: 130px 0;
+}
+
+.whoAreWe .container{
+    width: 1100px;
+    margin: auto;
+}
+
+.whoAreWe .row{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.whoAreWe .container .row .whoAreWe-img{
+    flex: 50%;
+    max-width: 50%;
+}
+
+.whoAreWe .container .row .whoAreWe-img img{
+    width: 535px;
+}
+
+.whoAreWe .container .row .whoAreWe-content{
+    flex: 50%;
+    max-width: 50%;
+    padding-top: 40px;
+}
+
+.whoAreWe .container .row .whoAreWe-content h3{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #303030;
+    margin-bottom: 40px;
+}
+
+.whoAreWe .container .row .whoAreWe-content p{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;;
+    font-weight: 400;
+    line-height: 28px;
+    color: #686868;
+    margin-bottom: 40px;
+
+}
+
+.whoAreWe .container .row .whoAreWe-content ul{
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.whoAreWe .container .row .whoAreWe-content ul li{
+    font-weight: 400;
+    color: #686868;
+    margin-bottom: 20px;
+}
+
+.whoAreWe .container .row .whoAreWe-content ul li i{
+    margin-right: 15px;
+    color: #4274b7;
+    font-weight: 900;
+}
+
+.whoAreWe .container .row .whoAreWe-content .btn-1{
+    padding: 15px 20px;
+    font-size: 12px ;
+    text-transform: uppercase;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: 0.3s ease-in all;
+    color: white;
+    font-weight: 600;
+
+
+    background-color: #4274B7;
+    &:hover{
+        background-color: #333;
+        color: white;
+     
+    }
+}
+
+
+
+/* Our Secret */
+
+.ourSecret{
+    padding: 130px 0;
+}
+
+.ourSecret .container{
+    width: 1100px;
+    margin: auto;
+}
+
+.ourSecret .row{
+    display: flex;
+    justify-content: center;
+}
+
+
+.ourSecret .container .row .ourSecret-content{
+    flex: 50%;
+    max-width: 50%;
+    padding-top: 40px;
+}
+
+.ourSecret .container .row .ourSecret-content h3{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #303030;
+    margin-bottom: 40px;
+}
+
+.ourSecret .container .row .ourSecret-content p{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;;
+    font-weight: 400;
+    line-height: 28px;
+    color: #686868;
+    margin-bottom: 40px;
+    
+}
+
+.ourSecret .container .row .ourSecret-content ul{
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+.ourSecret .container .row .ourSecret-content ul li{
+    font-weight: 400;
+    color: #686868;
+    margin-bottom: 20px;
+}
+
+.ourSecret .container .row .ourSecret-content ul li i{
+    margin-right: 15px;
+    color: #4274b7;
+    font-weight: 900;
+}
+
+.ourSecret .container .row .ourSecret-img{
+    flex: 50%;
+    max-width: 50%;
+}
+
+.ourSecret .container .row .ourSecret-img img{
+    width: 535px;
+}
+
+.ourSecret .container .row .ourSecret-content .btn-1{
+    padding: 15px 20px;
+    font-size: 12px ;
+    text-transform: uppercase;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: 0.3s ease-in all;
+    color: white;
+    font-weight: 600;
+
+
+    background-color: #4274B7;
+    &:hover{
+        background-color: #333;
+        color: white;
+     
+    }
+}
+
+
+
+/* Our Service */
+
+.ourService{
+    padding: 60px;
+    text-align: center;
+    background-color: #F8F8F9;
+}
+
+.ourService .container{
+    width: 1100px;
+    margin: auto;
+}
+
+.ourService .container .heading{
+    margin-bottom: 70px;
+}
+
+.ourService .container .heading i{
+    color: #4274b7;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.ourService .container .heading h2{
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.ourService .container .heading p{
+    color: #888;
+    font-size: 18px;
+}
+
+.ourService .container .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.ourService .container .ourService-content{
+    flex: 20%;
+    max-width: 30%;
+    margin: 0 20px 70px 0;
+}
+
+.ourService .container .ourService-content i{
+    background-color: #4274b7;
+    color: white;
+    font-size: 22px;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.ourService .container .ourService-content h4{
+    color: #303030;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.ourService .container .ourService-content p{
+    color: #888;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+
+
 
 /* <!-- section Testimonials --> */
 .Testimonials{
