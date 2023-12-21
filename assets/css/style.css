@@ -9,8 +9,7 @@
 }
 body{
    font-family: 'Open Sans', sans-serif;
-   height: 10000px;
-    font-weight: 400;
+   font-weight: 400;
 }
 /* Nav */
 nav{
@@ -649,3 +648,161 @@ header .animate .scroll-animate span{
     
 }
 /* work */
+
+
+
+/* Footer */
+
+footer{
+    padding: 100px 0 0 0;
+    background-color: #162231;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer .container{
+    width: 1100px;
+    margin: auto;
+}
+
+footer .container .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .container .row .footerContent{
+    flex: 22%;
+    max-width: 22%;
+}
+
+footer .container .row .footerContent h4{
+    color: white;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+footer .container .row .footerContent .aboutUs-content p{
+    color: #58606b;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+footer .container .row .footerContent .openingHours-content ul, footer .container .row .footerContent .pages-content ul{
+    list-style: none;
+    color: #58606b;
+}
+
+footer .container .row .footerContent .openingHours-content ul li{
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+footer .container .row .footerContent .openingHours-content ul li i, footer .container .row .footerContent .pages-content ul li i{
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+footer .container .row .footerContent .pages-content ul li i{
+    margin-bottom: 18px;
+}
+
+footer .container .row .footerContent .pages-content ul li a, footer .container .row .footerContent .contactDetails-content .contactDetails-list a{
+    color: #58606b;
+    font-size: 14px;
+    text-decoration: none;
+    transition: 0.5s;
+
+    &:hover{
+        color: #4274b7;
+    }
+}
+
+footer .container .row .footerContent .contactDetails-content{
+    background: url(../img/contact-details-map.png) rgba(22, 34, 49, 0.8);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+}
+
+footer .container .row .footerContent .contactDetails-content .contactDetails-list{
+    display: flex;
+    color: #58606b;
+    font-size: 14px;
+    margin-bottom: 18px;
+    line-height: 25px;
+}
+
+footer .container .row .footerContent .contactDetails-content .contactDetails-list i{
+    margin-right: 10px;
+}
+
+
+
+footer .bottomFooter{
+    background-color: #121b25;
+    margin-top: 80px;
+    padding: 25px 0;
+}
+
+footer .bottomFooter .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .bottomFooter .row .bottomFooter-content{
+    margin: 0 80px;
+}
+
+footer .bottomFooter .row .bottomFooter-content p, footer .bottomFooter .row .bottomFooter-content a i{
+    color: #58606b;
+}
+
+footer .bottomFooter .row .bottomFooter-content p{
+    font-size: 14px;
+}
+
+footer .bottomFooter .row .bottomFooter-content a i{
+    margin-right: 10px;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+footer .bottomFooter .row .bottomFooter-content a i:nth-child(1){
+    transition: 0.5s;
+
+    &:hover{
+        background-color: #4274b7;
+        color: white;
+    }
+}
+
+footer .bottomFooter .row .bottomFooter-content a:nth-child(2) i{
+    transition: 0.5s;
+
+    &:hover{
+        background-color: #EA4335;
+        color: white;
+    }
+}
+
+footer .bottomFooter .row .bottomFooter-content a:nth-child(3) i{
+    transition: 0.5s;
+
+    &:hover{
+        background-color: #007BB5;
+        color: white;
+    }
+}
+
+footer .bottomFooter .row .bottomFooter-content a:nth-child(3) i{
+    transition: 0.5s;
+
+    &:hover{
+        background-color: #00ACED;
+        color: white;
+    }
+}
